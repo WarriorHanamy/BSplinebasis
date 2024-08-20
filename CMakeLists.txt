@@ -26,8 +26,8 @@ target_include_directories(main_library INTERFACE
    include
 )
 
-add_subdirectory(examples)
-add_subdirectory(tests)
+# add_subdirectory(examples)
+# add_subdirectory(tests)
 
 if(BSPLINE_GENERATE_README)
   add_subdirectory(readme)
